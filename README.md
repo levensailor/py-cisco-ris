@@ -1,4 +1,4 @@
-# pyris
+# py-cisco-ris
 
 Uses Realtime Information Service (RIS) to capture registration status of Cisco IP Phones on CUCM
 https://developer.cisco.com/docs/sxml/#risport70-api-reference
@@ -15,7 +15,7 @@ from axlhelper import AXL
 from py-cisco-ris import RIS
 ```
 
-#### specify your cucm details, including a ris and axl user if these are different
+#### specify your CUCM details, including a RIS and AXL user if these are different
 ```py
 cucm = os.getenv('cucm', '10.10.10.10')
 version = os.getenv('version', '11.5')
@@ -25,7 +25,7 @@ risuser = os.getenv('risuser', 'axladmin')
 rispass = os.getenv('rispass', 'p@ssw0rd')
 ```
 
-#### instanciate your ris and axl objects
+#### instanciate your RIS and AXL objects
 ```py
 axl = AXL(username=axluser,password=axlpass,wsdl=wsdl,cucm=cucm,cucm_version=version)
 ris = RIS(username=risuser,password=rispass,cucm=cucm,cucm_version=version)
