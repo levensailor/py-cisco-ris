@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/levensailor/py-cisco-ris)
+
 # py-cisco-ris
 
 Uses Realtime Information Service (RIS) to capture registration status of Cisco IP Phones on CUCM
